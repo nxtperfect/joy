@@ -7,12 +7,10 @@
 [![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/miloszmilo/joy">
+  <a href="https://github.com/nxtperfect/joy">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -21,16 +19,14 @@
   <p align="center">
     A simple programming language written in python!
     <br />
-    <a href="https://github.com/miloszmilo/joy"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/nxtperfect/joy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/miloszmilo/joy/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/nxtperfect/joy/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/miloszmilo/joy/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/nxtperfect/joy/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -58,9 +54,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
@@ -68,29 +63,27 @@
 In today day and age we have multiple programming languages to choose from, with as low as raw assembly up to the highest of highs like python. There isn't enough simple languages that just get the job done, C? you need to learn pointers, GO? it's so simple you'll end up writing if err != nil more than you can count, Python? But it's so slow and overused. That's why you should use JOY, a simple language that doesn't play around, still not convinced?.
 
 Here's why:
-* Value your time, write software quick and efficiently with minimalistic keyword set
-* Put your effort into what matters the most, the algorithms, not their specific implementation
+
+- Value your time, write software quick and efficiently with minimalistic keyword set
+- Put your effort into what matters the most, the algorithms, not their specific implementation
 
 Of course, JOY has it's own limitations that you'll find along the way, but isn't that the way life is? One has X but struggles with Y, that's why JOY tries to limit the consand only bring pros! There are more advanced features planned if the project grows!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* [![Python][Python]][Python-url]
+- [![Python][Python]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Prerequisites
 
-* bash
+- bash
   ```sh
   uv install requirements.txt
   ```
@@ -111,12 +104,12 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 ### Variable declaration, control flow and scope
+
     ```python
     var x = 12+24
     if (x > 24) {
@@ -131,9 +124,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Create Math Solver
@@ -142,13 +134,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [/] Create Abstract Syntax Tree
 - [ ] Run code inside python
 
-See the [open issues](https://github.com/miloszmilo/joy/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/nxtperfect/joy/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -164,56 +155,52 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/miloszmilo/joy/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=miloszmilo/joy" alt="contrib.rocks image" />
+<a href="https://github.com/nxtperfect/joy/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nxtperfect/joy" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
-Project Link: [https://github.com/miloszmilo/joy](https://github.com/miloszmilo/joy)
+Project Link: [https://github.com/nxtperfect/joy](https://github.com/nxtperfect/joy)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [One Lone Coder - DIY programming language](https://www.youtube.com/watch?v=unh6aK8WMwM)
+- [Choose an Open Source License](https://choosealicense.com)
+- [One Lone Coder - DIY programming language](https://www.youtube.com/watch?v=unh6aK8WMwM)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/miloszmilo/joy.svg?style=for-the-badge
-[contributors-url]: https://github.com/miloszmilo/joy/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/miloszmilo/joy.svg?style=for-the-badge
-[forks-url]: https://github.com/miloszmilo/joy/network/members
-[stars-shield]: https://img.shields.io/github/stars/miloszmilo/joy.svg?style=for-the-badge
-[stars-url]: https://github.com/miloszmilo/joy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/miloszmilo/joy.svg?style=for-the-badge
-[issues-url]: https://github.com/miloszmilo/joy/issues
-[license-shield]: https://img.shields.io/github/license/miloszmilo/joy.svg?style=for-the-badge
-[license-url]: https://github.com/miloszmilo/joy/blob/master/LICENSE.txt
+
+[contributors-shield]: https://img.shields.io/github/contributors/nxtperfect/joy.svg?style=for-the-badge
+[contributors-url]: https://github.com/nxtperfect/joy/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nxtperfect/joy.svg?style=for-the-badge
+[forks-url]: https://github.com/nxtperfect/joy/network/members
+[stars-shield]: https://img.shields.io/github/stars/nxtperfect/joy.svg?style=for-the-badge
+[stars-url]: https://github.com/nxtperfect/joy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nxtperfect/joy.svg?style=for-the-badge
+[issues-url]: https://github.com/nxtperfect/joy/issues
+[license-shield]: https://img.shields.io/github/license/nxtperfect/joy.svg?style=for-the-badge
+[license-url]: https://github.com/nxtperfect/joy/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mi%C5%82osz-milosavljevi%C4%87-3b2356332
 [product-screenshot]: images/screenshot.png

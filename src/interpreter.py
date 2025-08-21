@@ -62,15 +62,13 @@ class Interpreter:
                 return
             return
         if isinstance(node, VariableDeclaration):
-            # declare if not declared, else throw error
-            pass
+            self.context.variables[node.name] = node.value.value
+            return
         if isinstance(node, VariableAccess):
             # return variable value?
             pass
         if isinstance(node, VariableAssignment):
-            name = node.name
-            value = node.value.value
-            self.context.variables[name] = value
+            self.context.variables[node.name] = node.value.value
             return
         pass
 

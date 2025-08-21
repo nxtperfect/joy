@@ -1,18 +1,16 @@
-from collections import deque
-from src.context import EvaluatorContext, InterpreterContext
+from src.context import InterpreterContext
 from src.interpreter import Interpreter, check_condition
 from src.joyTypes.AST_Nodes import (
     Comparison,
     EmptyExpression,
     IfStatement,
-    MathExpression,
     NumberLiteral,
     PrintStatement,
     VariableAccess,
     VariableAssignment,
+    VariableDeclaration,
     WhileStatement,
 )
-from src.joyTypes.Symbol import Symbol, SymbolType
 from src.joyTypes.Token import Token, TokenType
 
 
@@ -121,9 +119,6 @@ def test_while_variable():
             Token("<", TokenType.COMPARISON_OPERATOR),
             Token("2", TokenType.NUMBER, 2),
         ),
-        # x = x - 1
-        # MathExpression(VariableAccess("x"), MathExpression(VariableAccess("x"), Number(1), "-"))
-        # Maybe solve it instead?
         VariableAssignment("x", NumberLiteral(2)),
     )
     interpreter = Interpreter(context)
@@ -131,3 +126,13 @@ def test_while_variable():
     assert check_condition(node)
 
     assert context.variables["x"] == 2
+
+
+def test_variable_declaration():
+    context = InterpreterContext(
+        {},
+    )
+    node = VariableDeclaration("x", NumberLiteral(1))
+    interpreter = Interpreter(context)
+    interpreter.visit_node(node)
+    assert context.variables["x"] == 1
